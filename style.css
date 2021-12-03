@@ -1,32 +1,16 @@
+body{
+  margin: 0;
+  text-align: center;
+}
 *{
   box-sizing: border-box;
 }
-div{
-  height: 50px;
-  background-color: gray;
-  margin: 0 auto;
+.grid-example{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.grid-example > div{
+  flex: 0 0 25%;
 }
 
-@media (min-width: 600px) {
-  .example{
-    width: 580px;
-  }
-  
-}
-@media (min-width: 700px) {
-  .example{
-    width: 680px;
-  }
-  
-}
-@media (min-width: 800px) {
-  .example{
-    width: 780px;
-  }
-  
-}@media (min-width: 900px) {
-  .example{
-    width: 880px;
-  }
-  
-}
